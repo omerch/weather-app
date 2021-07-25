@@ -20,8 +20,11 @@
 2 Should have created more smaller components to add animations.                             
 3 Following design systems approach would be a good idea.
 
+### Dashboard
 ![](screenshot/1.png) 
 
+### Default location 1
 ![](screenshot/2.png) 
 
+### Default location 2
 ![](screenshot/3.png) 
