@@ -20,8 +20,8 @@
 2 Should have created more smaller components to add animations.                             
 3 Following design systems approach would be a good idea.
 
-![](screenshots/1.png) 
+![](screenshot/1.png) 
 
-![](screenshots/2.png) 
+![](screenshot/2.png) 
 
-![](screenshots/3.png) 
+![](screenshot/3.png) 
