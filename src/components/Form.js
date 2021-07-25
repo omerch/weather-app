@@ -22,13 +22,17 @@ const useStyles = makeStyles({
 })
 
 function Form() {
+    // storing search data
     const [weather, setWeather] = useState();
+    // handle search response
     const [click, handleClick] = useState(false);
+    // form values
     const [form, setForm] = useState({
         city: "",
         country: ""
     })
 
+    // Api to fetch data
     useEffect(() => {
         const getWeather = async() => {
             form.city && await fetchWeather(form.city, form.country).then(response => {
@@ -73,6 +77,7 @@ function Form() {
                     variant='contained'
                     className={classes.button}>Search</Button>
             </Box>
+            {/* Passing information to another component */}
             <Details data={weather}/>
         </>
     )
